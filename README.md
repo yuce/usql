@@ -227,6 +227,7 @@ associated database, scheme / build tag, and scheme aliases:
 | Genji                | `genji`         | `gj`                                            | [github.com/genjidb/genji/driver][d-genji]                      |
 | Google BigQuery      | `bigquery`      | `bq`                                            | [gorm.io/driver/bigquery/driver][d-bigquery]                    |
 | Google Spanner       | `spanner`       | `sp`                                            | [github.com/cloudspannerecosystem/go-sql-spanner][d-spanner]    |
+| Hazelcast            | `hazelcast`     | `ha`                                            | [][d-hazelcast]                                                 |
 | Microsoft ADODB      | `adodb`         | `ad`, `ado`                                     | [github.com/mattn/go-adodb][d-adodb]                            |
 | ModernC SQLite3      | `moderncsqlite` | `mq`, `modernsqlite`                            | [modernc.org/sqlite][d-moderncsqlite]                           |
 | MySQL MyMySQL        | `mymysql`       | `zm`, `mymy`                                    | [github.com/ziutek/mymysql/godrv][d-mymysql]                    |
@@ -272,6 +273,7 @@ associated database, scheme / build tag, and scheme aliases:
 [d-genji]: https://github.com/genjidb/genji
 [d-godror]: https://github.com/godror/godror
 [d-h2]: https://github.com/jmrobles/h2go
+[d-hazelcast]: https://github.com/hazelcast/hazelcast-go-client
 [d-hive]: https://github.com/sql-machine-learning/gohive
 [d-ignite]: https://github.com/amsokol/ignite-go-client
 [d-impala]: https://github.com/bippio/go-impala

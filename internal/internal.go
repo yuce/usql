@@ -22,6 +22,7 @@ func KnownBuildTags() map[string]string {
 		"genji":         "genji",         // github.com/genjidb/genji/driver
 		"godror":        "godror",        // github.com/godror/godror
 		"h2":            "h2",            // github.com/jmrobles/h2go
+		"hazelcast":     "hazelcast",     //
 		"hive":          "hive",          // sqlflow.org/gohive
 		"ignite":        "ignite",        // github.com/amsokol/ignite-go-client/sql
 		"impala":        "impala",        // github.com/bippio/go-impala
