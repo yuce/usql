@@ -67,7 +67,6 @@ require (
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/Microsoft/hcsshim v0.8.16 // indirect
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
-	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
@@ -137,6 +136,7 @@ require (
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
+	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/mattn/go-ieproxy v0.0.1 // indirect
 	github.com/mithrandie/go-file/v2 v2.0.2 // indirect
 	github.com/mithrandie/readline-csvq v1.1.1 // indirect
@@ -152,13 +152,14 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.11 // indirect
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/shirou/gopsutil/v3 v3.21.5 // indirect
+	github.com/shirou/gopsutil/v3 v3.21.11 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/tklauser/go-sysconf v0.3.4 // indirect
-	github.com/tklauser/numcpus v0.2.1 // indirect
+	github.com/tklauser/go-sysconf v0.3.9 // indirect
+	github.com/tklauser/numcpus v0.3.0 // indirect
 	github.com/unchartedsoftware/witch v0.0.0-20200617171400-4f405404126f // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
@@ -167,6 +168,7 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/xinsnake/go-http-digest-auth-client v0.6.0 // indirect
 	github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2 // indirect
+	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	gitlab.com/nyarla/go-crypt v0.0.0-20160106005555-d9a5dc2b789b // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	go.opencensus.io v0.23.0 // indirect
@@ -230,7 +232,7 @@ require (
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/hazelcast/hazelcast-go-client v1.1.1
+	github.com/hazelcast/hazelcast-go-client v1.2.0
 	github.com/jcmturner/gokrb5/v8 v8.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -245,7 +247,7 @@ require (
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.19.1 // indirect
 	golang.org/x/crypto v0.0.0-20211209193657-4570a0811e8b // indirect
-	golang.org/x/sys v0.0.0-20211214234402-4825e8c3871d // indirect
+	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 	google.golang.org/api v0.63.0 // indirect
@@ -253,6 +255,6 @@ require (
 )
 
 replace (
-	github.com/hazelcast/hazelcast-go-client v1.1.1 => github.com/yuce/hazelcast-go-client v1.1.2-0.20211218235036-bf0dc33a3b61
-	github.com/xo/dburl v0.9.0 => github.com/yuce/dburl v0.9.1-0.20211219075135-c978dd5bdcae
+	github.com/hazelcast/hazelcast-go-client v1.2.0 => github.com/hazelcast/hazelcast-go-client v1.1.2-0.20211231112129-5eabf0f687b5
+	github.com/xo/dburl v0.9.0 => github.com/yuce/dburl v0.9.1-0.20211224162633-00952bdd3cdf
 )
