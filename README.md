@@ -227,7 +227,7 @@ associated database, scheme / build tag, and scheme aliases:
 | Genji                | `genji`         | `gj`                                            | [github.com/genjidb/genji/driver][d-genji]                      |
 | Google BigQuery      | `bigquery`      | `bq`                                            | [gorm.io/driver/bigquery/driver][d-bigquery]                    |
 | Google Spanner       | `spanner`       | `sp`                                            | [github.com/cloudspannerecosystem/go-sql-spanner][d-spanner]    |
-| Hazelcast            | `hazelcast`     | `ha`                                            | [][d-hazelcast]                                                 |
+| Hazelcast            | `hazelcast`     | `hz`                                            | [][d-hazelcast]                                                 |
 | Microsoft ADODB      | `adodb`         | `ad`, `ado`                                     | [github.com/mattn/go-adodb][d-adodb]                            |
 | ModernC SQLite3      | `moderncsqlite` | `mq`, `modernsqlite`                            | [modernc.org/sqlite][d-moderncsqlite]                           |
 | MySQL MyMySQL        | `mymysql`       | `zm`, `mymy`                                    | [github.com/ziutek/mymysql/godrv][d-mymysql]                    |
